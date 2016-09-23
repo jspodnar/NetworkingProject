@@ -1,0 +1,57 @@
+Grading Sheet for Networking Project A (HTTP)
+
+100 points total
+
+Usernames:
+
+Names:     
+
+Basic Points : 10
+
+ - code was handed in correctly                           +5
+ - code has appropriate makefile and makes                +5
+
+http_client : 20 points
+
+ - correctly fetches http://www.cs.pitt.edu/ 
+   and prints to stdout                                   +5
+ - correctly fails to fetch http://ww.cs.pitt.edu/notthere.html 
+   and prints to stderr                                   +5
+ - correctly deals with connecting to machine 
+   without http server                                    +5
+ - code is sane                                           +5
+
+http_server1 : 30 points
+
+ - correctly services request for file that exists        +10
+ - correctly gives error for file that does not exist     +5
+ - can withstand a sequence of requests without crashing  +10
+ - code is sane                                           +5
+
+(should be able to make requests from telnet, http_client, and wget)
+
+http_server2 : 40 points
+
+ - correctly services request for file that exists        +5
+ - correctly gives error for file that does not exist     +5
+ - can withstand a sequence of requests without crashing  +5
+ - code is sane                                           +5
+ - open a connection with telnet, now see if it still 
+   correctly services other requests                      +10
+ - open two connections with telnet, see if it still      +10
+   correctly services requests
+
+(should be able to make requests from telnet, http_client, and wget)
+
+http_server3 or multithreaded or process-based servers: 40 extra credit points total
+
+ - correctly services request for file that exists        +5
+ - correctly gives error for file that does not exist     +5
+ - can withstand a sequence of requests without crashing  +5
+ - code is sane                                           +5
+ - open a connection with telnet, enter request line,
+   now see if it still correctly services other requests  +10
+ - open two connections with telnet, enter request lines,
+   see if it still  correctly services other requests     +10
+
+(should be able to make requests from telnet, http_client, and netscape/ie)
