@@ -1,0 +1,4 @@
+#Project 1: Web Client and Server
+
+##Overview:
+In this part of the project, your group will build a simple web client and a succession of servers to which it can connect. In addition you, will learn how to checkout and build Minet. The goal is to slowly introduce you to Unix, Minet, and socket programming and get you to a stage where you will be able to tackle the subsequent parts of the project. The client and servers you’ll build will run both on the kernel stack and on the Minet stack. The last server that you will construct will have roughly the same structure as the TCP and IP layers of the network stack you will build. There are also extra credit servers you may build that are structured like a real high performance web server or cache, such as Inktomi’s Traffic Server, the Squid cache, Apache, or Microsoft’s IIS.
